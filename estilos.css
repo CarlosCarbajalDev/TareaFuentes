@@ -1,16 +1,5 @@
-
-h1{
-    font-family: 'Roboto', sans-serif;
-}
-
-h2{
-    font-family: 'Noto Sans JP', sans-serif;
-} 
-p{
-    font-family: 'Chango', cursive;
-}
-
-body,html {
+body,
+html {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -36,7 +25,7 @@ body,html {
 header {
     height: 100%;
     overflow: hidden;
-    background: url('images/macbook-half-opened-s.png') no-repeat top;
+    background: url('https://images.pexels.com/photos/2387532/pexels-photo-2387532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center;
     background-size: cover;
 }
 
@@ -53,7 +42,7 @@ header {
 
 .marca {
     width: fit-content;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: Hagin;
     font-size: 2rem;
     color: rgb(238, 238, 238);
     letter-spacing: 2px;
@@ -63,7 +52,7 @@ header {
     width: 90%;
     margin-top: 5%;
     margin-bottom: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Poppins;
     font-size: 2rem;
     letter-spacing: .2rem;
     text-align: justify;
@@ -73,7 +62,7 @@ header {
 .aviso {
     width: 90%;
     margin-top: 10px;
-    font-family: 'Chango', cursive;
+    font-family: Poppins-normal;
     font-size: .8rem;
     line-height: 1.5rem;
     letter-spacing: .2rem;
@@ -101,4 +90,3 @@ header {
     color: aliceblue;
     background-color: rgba(7, 7, 7, 0.6);
 }
-
